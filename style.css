@@ -30,3 +30,14 @@ body::after {
   right: -100px;
   opacity: 0.3;
 }
+.topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(10px);
+  z-index: 10;
+}
